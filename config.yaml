@@ -1,0 +1,22 @@
+node:
+    http: http://95.179.132.144:8545
+    ws: ws://95.179.132.144:8777
+settings:
+    privateKey: PRIVATE_KEY
+    minimalLiquidity: 0.01
+    path:
+        - 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+        - 0x2D4b58C7d0EF2Eaa4b2C3aF0BE4691383c4f8cE3
+    amount: 0.001
+
+    contract: 
+
+    txs: 3
+buy:
+    gasLimit: 350000
+    
+sigmode: false
+
+signatures:
+    - "0x38aeaf31"
+    - "0x8a8c523c"
